@@ -1,0 +1,50 @@
+:root {
+  --main-blue: #2f2fa2;
+  --main-blue-hovered: #242582;
+  --main-red: #ff4143;
+  --main-red-hovered: #e03e3e;
+  --main-green: #00a300;
+  --main-green-hovered: #006600;
+  --main-background: #42022e;
+  --main-white: #eaebed;
+  --main-white-hovered: #efe2e2;
+  --main-text-color: #36454f;
+  --oxford-blue: #080c24ff;
+  --oxford-blue-lite: #151e34ff;
+  --blue-crayola: #3071e8ff;
+  --celadon-blue: #1f7ea7ff;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #979595;
+  border-radius: 8px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
